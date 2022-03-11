@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myClock , #myDay{
+            padding: 10px;
+            background-color: none;
+            font-size: 2em;
+            color: black;
+        }
+        body {
+            background-image: url('clock empty.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+            
+        }
+
+        #myDay {
+            position: absolute;
+            top: 60%;
+            width: 100%;
+            text-align: center;
+            font-size: 4.5em;
+        }
+
+        #myClock {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+            background-color: none;
+            font-size: 7em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id= 'myDay'></div>
+        <div id = 'myClock'></div>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
